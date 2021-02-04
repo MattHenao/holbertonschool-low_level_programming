@@ -10,10 +10,10 @@ int main(void)
 {
 	int a;
 
-	for (a = '0'; a < '10'; a++)
+	for (a = 48; a < 58; a++)
 	{
 		putchar(a);
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
