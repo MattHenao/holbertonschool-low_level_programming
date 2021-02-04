@@ -19,7 +19,7 @@ int main(void)
 	}
 	for (c = 65; c <= d; d++)
 	{
-		putchar(c)
+		putchar(c);
 	}
 	putchar(10);
 	return (0);
