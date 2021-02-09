@@ -9,12 +9,16 @@
 int main(void)
 
 {
-	char h[9] = "Holberton";
-	int a;
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	_putchar('\n');
 
-	for (a = 0; a < 9; i++)
-	{
-		_putchar(h);
-	}
 	return (0);
 }
