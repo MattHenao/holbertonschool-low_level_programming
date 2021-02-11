@@ -3,6 +3,8 @@
 /**
  * _isdigit - Checks for a digit
  *
+ * @c: Digit
+ *
  * Return: 0 or 1
  */
 
