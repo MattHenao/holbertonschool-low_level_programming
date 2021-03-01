@@ -11,7 +11,7 @@ void print_square(int size)
 	int a = 35;
 	int b;
 	int c;
-	
+
 	if (size > 0)
 	{
 		for (b = 0; b < size; b++)
@@ -27,5 +27,4 @@ void print_square(int size)
 	{
 		_putchar('\n');
 	}
-	
 }
