@@ -5,6 +5,8 @@
  * malloc_checked - Allocates memory using malloc
  *
  * @b: Length
+ *
+ * Return: *a
  */
 
 void *malloc_checked(unsigned int b)
@@ -14,5 +16,5 @@ void *malloc_checked(unsigned int b)
 	a = malloc(b);
 	if (a == '\0')
 		exit(98);
-	return(a);
+	return (a);
 }
